@@ -3,7 +3,7 @@
     { "source": "/muse-masterclass", "destination": "/muse-masterclass/", "permanent": false }
   ],
   "rewrites": [
-    { "source": "/muse-masterclass/", "destination": "https://muse-subpath.muse-masterclass.pages.dev/" },
-    { "source": "/muse-masterclass/(.+)", "destination": "https://muse-subpath.muse-masterclass.pages.dev/$1" }
+    { "source": "/muse-masterclass/", "destination": "https://muse-masterclass.pages.dev/" },
+    { "source": "/muse-masterclass/(.+)", "destination": "https://muse-masterclass.pages.dev/$1" }
   ]
 }
