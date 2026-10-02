@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/muse-masterclass", "destination": "/muse-masterclass/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/muse-masterclass/:path*", "destination": "https://muse-subpath.muse-masterclass.pages.dev/:path*" }
+  ]
+}
